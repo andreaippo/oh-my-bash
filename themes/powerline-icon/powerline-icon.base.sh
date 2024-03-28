@@ -27,7 +27,7 @@ function __powerline_user_info_prompt {
       fi
       ;;
   esac
-  [[ -n "${user_info}" ]] && echo "🐧 ${user_info} `date +%X\ %D`|${color}|${secondary_color}"
+  [[ -n "${user_info}" ]] && echo "🐧 ${user_info} `date +%X\ %d/%m/%y`|${color}|${secondary_color}"
 }
 
 function __powerline_cwd_prompt {
